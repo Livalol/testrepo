@@ -22,25 +22,29 @@
 			<img src="bild.jpg" width="400" height="200" alt="Fel" title="Liva&Sofie"/>
 			<br>
 		</p class="last">
-		Vi ska lära oss
-		<ul>
-			<li>CSS</li>
-			<li>Python</li>
-			<li>Htlm</li>
-		</ul>
-		Jag är mest peppad på dessa språk
-		<ol>
-			<li>Python</li>
-			<li>CSS</li>
-			<li>Htlm</li>
-		</ol>
-		Vad vill du lära dig?
-		<form>
-			<input type="radio" name="kod" value="CSS" checked> CSS<br>
-			<input type="radio" name="kod" value="Python" checked> Python<br>
-			<input type="radio" name="kod" value="Html" checked> Html<br>
-		</form>
-		<br>
+		<div class="container">
+			<div class="row"">
+				<div class="col-md-4">Vi ska lära oss
+					<ul>
+						<li>CSS</li>
+						<li>Python</li>
+						<li>Html</li>
+					</ul>
+				</div>
+				<div class="col-md-4">Jag är mest peppad på
+					<ol>
+						<li>Python</li>
+						<li>Css</li>
+						<li>Html</li>
+				</div>
+				<div class="col-md-4">Vad vill du lära dig?
+					<form>
+						<input type="radio" name="kod" value="CSS" checked> CSS<br>
+						<input type="radio" name="kod" value="Python" checked> Python<br>
+						<input type="radio" name="kod" value="Html" checked> Html<br>
+				</div>
+			</div>
+		</div>
 		<button type="button">Click me!</button>
 	<script src="js/bootstrap.min.js"></script>
 	</body>
