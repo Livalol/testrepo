@@ -1,5 +1,5 @@
 body {
-	background: rgb(200, 200, 190);
+	background: #A9CCE3;
 	font-size: 12pt;
 	font-family: Gerstner Programm Light;
 	max-width: 600px;
@@ -16,9 +16,18 @@ p {
 	padding-bottom: 5px;	
  }
  .last {
- 	background: white;
+ 	background: rgb(256, 99, 99);
  }
+ .column1 {
+ 	background: #F08080;
+   }	
+ .column2 {
+ 	background: #FA8072;
+   }	
+  .column3 {
+ 	background: #E9967A;
+   }	
  ul {
  	list-style: square url ("sqpurple.gif");
- 	color: rgb(255, 255, 255);
+ 	color: black;
   }	
